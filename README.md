@@ -22,20 +22,20 @@ The following designs are available as PNG and PSD files. More formats will foll
 ### SMART Health Link Setup
 Provide users with a clear overview of the SMART Health Link they plan to create (depicted in [SMART Health Link Setup](Generic_Mobile_UX_Link_Set-up.png)). Include,
 
-* Label for the link (e.g. “Jane’s Complete Immunizations”)
+* The Label, as specified in the link construction (e.g. “Jane’s Complete Immunizations”)
 * Expiration information
 * Passcode
 * Description or list of data included in the SMART Health Link, or the action the link initiates, if not otherwise obvious in the label or UX
 
-Be sure that users understand that by activating this link, all of the referenced data will be available to anyone with access to the link.
+Be sure that users understand that by activating this link, all of the referenced data will be available to anyone with access to the link and knowledge of the passcode, if a passcode exists.
 
 ### SMART Health Link Management
 For active SMART Health Links, provide users with tools to manage the key details of that link (depicted in [SMART Health Link Management](Generic_Mobile_UX_Link_Manage.png)). Users should be able to view or configure,
 
-* The Label for the link (e.g. “Jane’s Complete Immunizations”)
+* The Label, as specified in the link construction (e.g. “Jane’s Complete Immunizations”)
 * Expiration date
 * Passcode
-* The link URI
+* The link URI (viewable but not configurable)
 
 Users should also have the ability to
 
@@ -58,7 +58,7 @@ QR codes should be presented in close proximity to the Label for the SMART Healt
 
 QR Codes should be rendered in black on a white background only to maximize contrast. The QR code should have a clear white border.
 
-Embed the SMART logo in the QR code to increase recognition by users and verifiers.
+[Embed the SMART logo in the QR code](https://docs.smarthealthit.org/smart-health-links/spec/#3-data-sharer-transmits-a-shlink) to increase recognition by users and verifiers.
 
 Be sure that users understand that by sharing this QR code, all of the referenced data will be available to anyone with access to the link.
 
